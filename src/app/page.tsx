@@ -524,7 +524,7 @@ export default function Home() {
                   </div>
                   {isTimerComplete && (
                     <div className="text-rose-600 font-medium mb-3">
-                      Time's up! Remove the speaker or continue.
+                      Time&apos;s up! Remove the speaker or continue.
                     </div>
                   )}
                   <button
@@ -761,15 +761,15 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-gray-700">
                   <p className="mb-4">
-                    Bu uygulama, toplantılarda konuşmacıları rastgele seçmek ve konuşma sürelerini takip etmek için tasarlanmış interaktif bir araçtır.
+                    This application is an interactive tool designed to randomly select speakers in meetings and track their speaking time.
                   </p>
                   <p className="mb-4">
-                    Şans çarkı ile konuşmacılar arasından rastgele seçim yapabilir, zamanlayıcı ile konuşma sürelerini kontrol edebilirsiniz.
+                    You can randomly select speakers using the wheel of fortune and control speaking times with the timer.
                   </p>
                   <div className="bg-indigo-50 p-4 rounded-lg">
                     <p className="text-indigo-800 font-medium text-center">
-                      © 2025
-                      Özgün Türkmen tarafından geliştirilmiştir.
+                      © 2024 Wheel of Fortune<br/>
+                      Developed by Özgün Türkmen
                     </p>
                   </div>
                 </div>
